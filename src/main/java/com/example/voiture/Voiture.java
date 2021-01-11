@@ -14,6 +14,7 @@ public class Voiture {
     @Id
     private int id;
     private String modele;
+	private String annee;
     private int nbreChevaux;
     private int numChassis;
     @ManyToOne
